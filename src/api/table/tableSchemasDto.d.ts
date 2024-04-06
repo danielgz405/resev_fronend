@@ -1,4 +1,5 @@
 export interface TableSchemaDto {
-  name: string;
-  description: string;
+  number: string;
+  observation: string;
+  image_base64: string;
 }
