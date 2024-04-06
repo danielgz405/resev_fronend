@@ -77,6 +77,7 @@ export default function Example() {
 
   useEffect(() => {
     auth.user && getTables();
+    auth.user && console.log(auth)
   }, [auth]);
   return (
     <div className="w-full overflow-y-auto h-full flex flex-1 flex-row">
